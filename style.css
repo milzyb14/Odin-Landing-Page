@@ -33,7 +33,6 @@ nav ul li a{
 }
 .section{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     border: 2px solid red;
     width: auto;
@@ -140,9 +139,46 @@ h1{
 }
 
 .signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 2px solid red;
     width: auto;
-    height: 121.047;
+    height: 340px;
+}
+
+.box2{
+   /* background-color: #3882f6; */
+   /* color: white; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border: 2px solid red;
+    height: 150px;
+    width: 750px;
+    padding: 10px 50px;
+}
+
+.button2{
+    color: white;
+    padding: 20px 20px;
+    border-radius: 8px;
+    border: 2px solid white;
+    cursor: pointer;
+    border: white;
+    margin-left: auto;
+    margin-top: -45px;
+
+}
+
+h4{
+    font-size: 26px;
+    margin-bottom: -.5px;
+}
+
+.box2 sub{
+    font-size: 18px;
 }
 
 footer{
