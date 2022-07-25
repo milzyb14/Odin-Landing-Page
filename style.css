@@ -14,20 +14,66 @@ nav ul {
     display: flex;
     list-style: none;
     text-decoration: none;
+    font-size: 18px;
     margin: 8px 100px 0px auto;  
 }
 
 nav li{
-    margin: 8px 25px 0px auto;   
+    margin: 8px 25px 0px auto;  
 }
+
+nav ul li a{
+    /* color: #e5e7eb;*/
+}
+
 
 .logo{
     display: flex;
     margin: 8px auto 8px 50px;
 }
 .section{
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     border: 2px solid red;
+    width: auto;
+    height: 400px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    row-gap: 10px;
+    border: 2px solid red;
+    margin-left: 50px;
+}
+
+h3{
+    font-size: 48px;
+    font-weight: extra-bold;
+    /* color: #f9faf8; */
+    margin-bottom: -8px;
+}
+
+sub{
+    font-size: 18px;
+    /* color: #e5e7eb; */
+}
+
+button{
+    background-color: #3882f6;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+}
+
+.image{
+    border: 2px solid red;
+    margin-right: 100px;
 }
 
 .random{
