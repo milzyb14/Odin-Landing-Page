@@ -1,16 +1,14 @@
 .hero,
 footer{
-    /* background-color: #1f2937; */
+    background-color: #1f2937;
 }
 
 .header{
     display: flex;
     justify-content: space-between;
-    border: 2px solid red;
 }
 
 nav ul {
-    border: 2px solid red;
     display: flex;
     list-style: none;
     text-decoration: none;
@@ -23,7 +21,7 @@ nav li{
 }
 
 nav ul li a{
-    /* color: #e5e7eb;*/
+    color: #e5e7eb;
 }
 
 
@@ -34,7 +32,6 @@ nav ul li a{
 .section{
     display: flex;
     justify-content: space-between;
-    border: 2px solid red;
     width: auto;
     height: 400px;
 }
@@ -45,20 +42,19 @@ nav ul li a{
     align-items: flex-start;
     justify-content: center;
     row-gap: 10px;
-    border: 2px solid red;
     margin-left: 50px;
 }
 
 h3{
     font-size: 48px;
     font-weight: 900;
-    /* color: #f9faf8; */
+    color: #f9faf8;
     margin-bottom: -8px;
 }
 
 sub{
     font-size: 18px;
-    /* color: #e5e7eb; */
+    color: #e5e7eb;
 }
 
 button{
@@ -74,20 +70,24 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid red;
     margin-right: 100px;
 }
 
 .random{
-    border: 2px solid red;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    height: 450px;
+    width: auto;
 }
 h1{
+    padding: 20px;
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
     text-align: center;
-    border: 2px solid red;
 }
 
 .cards{
@@ -97,7 +97,6 @@ h1{
     column-gap: 10px;
     height: 400px;
     width: auto;
-    border: 2px solid red;
 }
 
 .box{
@@ -118,8 +117,7 @@ h1{
 }
 
 .quote{
-   /*  background-color: #e5e7eb; */
-    border: 2px solid red;
+    background-color: #e5e7eb;
     padding: 85px 50px;
     width: auto;
     text-align: center;
@@ -142,19 +140,17 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid red;
     width: auto;
     height: 340px;
 }
 
 .box2{
-   /* background-color: #3882f6; */
-   /* color: white; */
+    background-color: #3882f6; 
+    color: white; 
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    border: 2px solid red;
     height: 150px;
     width: 750px;
     padding: 10px 50px;
@@ -162,19 +158,19 @@ h1{
 
 .button2{
     color: white;
-    padding: 20px 20px;
+    padding: 0px 15px;
     border-radius: 8px;
     border: 2px solid white;
     cursor: pointer;
-    border: white;
     margin-left: auto;
-    margin-top: -45px;
+    margin-top: -35px;
 
 }
 
 h4{
     font-size: 26px;
     margin-bottom: -.5px;
+    margin-top: -10px;
 }
 
 .box2 sub{
@@ -182,12 +178,11 @@ h4{
 }
 
 footer{
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     column-gap: 20px;
-
-    border: 2px solid red;
     width: auto;
     height: 85px;
 }
