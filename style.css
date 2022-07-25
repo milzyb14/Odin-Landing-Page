@@ -1,6 +1,49 @@
 .hero,
 footer{
-    display: flex;
-    background-color: #1f2937;
+    /* background-color: #1f2937; */
 }
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid red;
+}
+
+nav ul {
+    border: 2px solid red;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    margin: 8px 100px 0px auto;  
+}
+
+nav li{
+    margin: 8px 25px 0px auto;   
+}
+
+.logo{
+    display: flex;
+    margin: 8px auto 8px 50px;
+}
+.section{
+    
+    border: 2px solid red;
+}
+
+.random{
+    border: 2px solid red;
+}
+
+.quote{
+    border: 2px solid red;
+}
+
+.signup{
+    border: 2px solid red;
+}
+
+footer{
+    border: 2px solid red;
+}
+
 
