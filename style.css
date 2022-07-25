@@ -72,24 +72,66 @@ button{
 }
 
 .image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 2px solid red;
     margin-right: 100px;
 }
 
 .random{
     border: 2px solid red;
+    
 }
+.random h1{
+    text-align: center;
+    border: 2px solid red;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    height: 400px;
+    width: auto;
+    border: 2px solid red;
+}
+
+.box{
+    max-width: 200px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    border: 2px solid blue;
+    border-radius: 15px;
+}
+
 
 .quote{
     border: 2px solid red;
+    height:87.5px;
+    width: auto;
 }
 
 .signup{
     border: 2px solid red;
+    width: auto;
+    height: 121.047;
 }
 
 footer{
     border: 2px solid red;
+    width: auto;
+    height: 85px;
 }
 
 
