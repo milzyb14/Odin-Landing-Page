@@ -52,7 +52,7 @@ nav ul li a{
 
 h3{
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 900;
     /* color: #f9faf8; */
     margin-bottom: -8px;
 }
@@ -83,7 +83,10 @@ button{
     border: 2px solid red;
     
 }
-.random h1{
+h1{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
     text-align: center;
     border: 2px solid red;
 }
@@ -110,16 +113,30 @@ button{
     justify-content: center;
 }
 
-img{
+.content img{
     border: 2px solid blue;
     border-radius: 15px;
 }
 
-
 .quote{
+   /*  background-color: #e5e7eb; */
     border: 2px solid red;
-    height:87.5px;
+    padding: 85px 50px;
     width: auto;
+    text-align: center;
+
+}
+
+.quote q{
+    font-size: 36px;
+    font-style: italic;  
+}
+
+.quote h5{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 36px;
+    margin-bottom: -10px;
 }
 
 .signup{
